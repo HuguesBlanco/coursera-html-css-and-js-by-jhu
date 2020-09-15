@@ -1,0 +1,42 @@
+/************************/
+/* Specific page styles */
+/************************/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+	font-size: 175%;
+	text-align: center;
+}
+h2 {
+	border: 1px solid #000000;
+	font-size: 125%;
+	margin: 0;
+	padding: .5em;
+	position: absolute;
+		right: -1px;
+		top: -1px;
+	text-align: center;
+	width: 8em;
+}
+p {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+section {
+	background-color: #999999;
+	border: 1px solid #000000;
+	padding: 3em 1em 0 1em;
+	position: relative;
+}
+section:nth-child(1) h2 {
+	background-color: #d59898;
+}
+section:nth-child(2) h2 {
+	background-color: #c14543;
+	color: #ffffff;
+}
+section:nth-child(3) h2 {
+	background-color: #e5d198;
+}
